@@ -1,14 +1,22 @@
 # Student CRUD App
 
- This project mainly focuses on creating a REST API so that , a user can be handle [CRUD](https://www.freecodecamp.org/news/crud-operations-explained/) operations 
+ This project mainly focuses on creating a [REST](https://en.wikipedia.org/wiki/REST) API to perform standard database functions ie. [CRUD](https://www.freecodecamp.org/news/crud-operations-explained/) operations.
 
  This project states that how to build own api 's so that, it can be used in future.
 
 ## Screenshot
 
- ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot.1.png)
+ ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot_1.png)
 
- ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot.2.png)
+ ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot_2.png)
+
+ ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot_3.png)
+
+ ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot_4.png)
+
+ ![ScreenShot](https://raw.github.com/mervin-prog/Student_CRUD_App/main/Output/Screenshot_5.png)
+
+
 
 ## Installation
 
