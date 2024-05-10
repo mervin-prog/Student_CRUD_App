@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student | Details</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Students List</h1>
+        <a id="newstudent" href="/new">New Student</a>
+        <ul id="studentslist">
+            <% students.forEach(student => { %>
+                <li>
+                  
+                  <img class="image" src= "/images/<%= student.image %>" alt="Image"> 
+                  <h2><%= student.name %></h2>
+                  <p><%= student.address %></p>
+                  <small><%= student.role %></small>
+
+                  <a class="edit" href="/edit/<%= student.id %>">Edit</a>
+                  <a class="delete" href="/api/students/delete/<%= student.id %>">Delete</a>
+
+                </li>     
+          <%  }); %>
+        </ul>
+    </div>
+    
+</body>
+</html>

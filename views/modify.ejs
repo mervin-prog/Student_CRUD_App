@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student | Modification</title>
+       <link rel="stylesheet" href="/Css/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1><%= heading %></h1>
+
+        <% if(locals.student) {%>
+            <form id="editForm" method="post" action="/api/students/<%= student.id %>">
+                <input name="name" type="text" value="<%= student.name %>">
+                <textarea name="address" rows="5"><%= student.address %></textarea>
+                <input name="role" type="text" value="<%= student.role %>">
+                <input name="image" type="file" value="<%= student.image %>">
+                <button class="max-width" type="submit"> <%= submit %> </button>
+            </form>
+    <%} else {%>
+            <form id="newForm" method="post" action="/api/students">
+                <input name="name" type="text" placeholder="Name">
+                <textarea name="address" placeholder="Address" rows="5"></textarea>
+                <input name="role" type="text" placeholder="Role">
+                <input name="image" type="file" placeholder="Choose file">
+                <button class="max-width" type="submit"> <%= submit %> </button>
+            </form>
+        <%}%>
+    </div>
+</body>
+</html>
